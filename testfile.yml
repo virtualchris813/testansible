@@ -1,9 +1,9 @@
---- 
-- 
+---
+- name: Test File!
   hosts: all
-  name: testfile
-  tasks: 
-    copy: 
+ 
+  tasks:
+     copy: 
       content: ""
       dest: /tmp/test.file
       force: false
