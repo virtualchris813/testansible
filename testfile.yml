@@ -1,5 +1,6 @@
 ---
 - name: testfile
+    hosts: all
     tasks:
       copy:
         content: ""
