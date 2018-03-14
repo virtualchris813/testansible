@@ -1,7 +1,9 @@
 ---
 - name: testfile
   hosts: all
+  
   tasks:
+  
     copy:
       content: ""
       dest: /tmp/test.file
