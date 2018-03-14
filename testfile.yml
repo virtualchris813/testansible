@@ -9,6 +9,6 @@
       content: ""
       dest: /tmp/test.file
       force: false
-      group: sys
+      group: user
       mode: 0555
-      owner: root
+      owner: user
