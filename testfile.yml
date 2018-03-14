@@ -1,4 +1,5 @@
-- name: ensure file exists
+---
+- name: testfile
   copy:
     content: ""
     dest: /tmp/test.file
