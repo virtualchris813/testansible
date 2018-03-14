@@ -1,12 +1,11 @@
 ---
 - name: testfile
-    hosts: all
-    
-    tasks:
-      copy:
-        content: ""
-        dest: /tmp/test.file
-        force: no
-        group: sys
-        owner: root
-        mode: 0555
+hosts: all
+tasks:
+  copy:
+  content: ""
+  dest: /tmp/test.file
+  force: no
+  group: sys
+  owner: root
+  mode: 0555
