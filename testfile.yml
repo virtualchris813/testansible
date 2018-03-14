@@ -1,10 +1,11 @@
 ---
-- name: Test File!
+- name: Test File
   hosts: all
  
   tasks:
   
-     copy: 
+  - name: make file
+    copy: 
       content: ""
       dest: /tmp/test.file
       force: false
