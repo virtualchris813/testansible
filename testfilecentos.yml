@@ -6,7 +6,7 @@
   
   - name: make file
     copy: 
-      content: ""
+      content: "Test CentOS file from Ansible"
       dest: /tmp/test-centos.file
       force: false
       group: root
