@@ -1,0 +1,14 @@
+---
+- name: Test File
+  hosts: all
+ 
+  tasks:
+  
+  - name: make file
+    copy: 
+      content: ""
+      dest: /tmp/test-centos.file
+      force: false
+      group: root
+      mode: 0555
+      owner: root
