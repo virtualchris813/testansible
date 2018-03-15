@@ -1,6 +1,6 @@
 ---
 - name: Test File
-  hosts: "{{ ansible_fqdn }}"
+  hosts: "{{ target_host }}"
  
   tasks:
   
