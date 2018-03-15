@@ -1,12 +1,12 @@
 ---
 - name: Test File
-  hosts: all
+  hosts: "{{ ansible_fqdn }}"
  
   tasks:
   
   - name: make file
     copy: 
-      content: "Hi from {{ ansible_fqdn }}"
+      content: "Hi from {{ ansible_fqdn }}\n"
       dest: /tmp/test-centos.file
       force: false
       group: root
