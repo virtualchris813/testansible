@@ -6,7 +6,7 @@
   
   - name: make file
     copy: 
-      content: "Test CentOS file from Ansible"
+      content: "Hi from {{ lookup('env', 'ansible_fqdn') }}"
       dest: /tmp/test-centos.file
       force: false
       group: root
